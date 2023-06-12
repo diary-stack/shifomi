@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.container div i {
+    font-size: 200px;
+    margin: 0 50px;
+    cursor: pointer;
+}
+
+.response {
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+}
+
+.response div {
+    margin: 50px 20px
+}
+
+.res,
+.res-score {
+    color: red;
+}
+
+.bot,
+.res-score-bot {
+    color: green;
+}
+
+.score {
+    text-align: center;
+    font-size: 50px;
+}
